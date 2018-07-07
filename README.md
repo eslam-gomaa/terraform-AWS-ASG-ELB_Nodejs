@@ -82,4 +82,10 @@ terraform apply
 # yes | if you want to proceed
 ```
 
+# Test 
+
+```bash
+<public IPv4>:5000/api/v1.0/task
+```
+
 
