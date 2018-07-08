@@ -1,6 +1,6 @@
 # Creating a Load Balancing between a cluster of Nodejs Apps on AWS with Terraform
 
-this repo is an example of using `ELB` **Elastic Load Balancing** with `ASG` **Auto Scaling Group** to provide highly availability and efficient Nodejs Apps
+this repo is an example of using `ELB` **Elastic Load Balancing** with `ASG` **Auto Scaling Group** to provide highly available and efficient Nodejs Apps
 
 
 
@@ -88,4 +88,10 @@ terraform apply
 <public IPv4>:5000/api/v1.0/task
 ```
 
+* destroy what you've built
+
+```bash
+terraform destroy
+# yes | if you want to proceed
+```
 
